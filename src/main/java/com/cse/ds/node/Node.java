@@ -267,16 +267,10 @@ public class Node extends Client {
                     if (file_contains) {
                         results.add(node_file.replaceAll(" ", "_"));
                         fileFound = true;
-                        System.out.println("********** FILE FOUND *******");
+                        System.out.println("------------------File Found!---------------------");
                         break;
                     }
                 }
-//                System.out.println("************* Message " + message + Arrays.toString(results.toArray()));
-//                if (message.toLowerCase().contains(fileName)) {
-//                    // Remove the spaces
-//                    results.add(message.replaceAll(" ", "_"));
-//                    fileFound = true;
-//                }
             }
             if (fileFound) {
                 String resultString = "0114 SEROK " + results.size() + " 127.0.0.1 " + port + " " + hops;
@@ -365,9 +359,6 @@ public class Node extends Client {
         Socket sock = serverSocket.accept();
 
         send(file, hash, sock);
-        //log.info("Sending file " + filename + ".....");
-//        sock.close();
-//        serverSocket.close();
     }
 
     public static void send(File file, String hash, Socket socket) {
@@ -387,7 +378,6 @@ public class Node extends Client {
             byte[] buf = new byte[4092];
 
             FileInputStream fis = new FileInputStream(file);
-            //System.out.println("Sending file: " + filename);
             System.out.println("Sending file: " + filename);
             while ((n = fis.read(buf)) != -1) {
                 dos.write(buf, 0, n);
