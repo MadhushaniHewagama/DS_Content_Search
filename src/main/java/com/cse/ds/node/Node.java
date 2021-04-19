@@ -1,14 +1,14 @@
-package com.cse.distributed.node;
-
-import com.cse.distributed.models.Command;
-import com.cse.distributed.models.DummyFile;
-import com.cse.distributed.models.FileGenerator;
+package com.cse.ds.node;
 
 import java.io.*;
 import java.net.*;
 import java.nio.file.Paths;
 import java.security.NoSuchAlgorithmException;
 import java.util.*;
+
+import com.cse.ds.models.Command;
+import com.cse.ds.models.DummyFile;
+import com.cse.ds.models.FileGenerator;
 
 import static jdk.nashorn.internal.runtime.regexp.joni.Config.log;
 

@@ -1,4 +1,4 @@
-package com.cse.distributed.models;
+package com.cse.ds.models;
 
 import java.io.File;
 import java.io.FileOutputStream;

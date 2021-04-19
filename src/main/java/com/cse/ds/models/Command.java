@@ -1,6 +1,4 @@
-package com.cse.distributed.models;
-
-import java.util.ArrayList;
+package com.cse.ds.models;
 import java.util.Arrays;
 import java.util.List;
 

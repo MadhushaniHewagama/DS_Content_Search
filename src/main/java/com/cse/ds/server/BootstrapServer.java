@@ -1,4 +1,4 @@
-package com.cse.distributed.server;
+package com.cse.ds.server;
 
 import java.io.IOException;
 import java.net.DatagramPacket;

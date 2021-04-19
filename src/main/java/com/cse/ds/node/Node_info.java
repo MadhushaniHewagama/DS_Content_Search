@@ -1,4 +1,4 @@
-package com.cse.distributed.node;
+package com.cse.ds.node;
 
 public class Node_info {
     private String ip;

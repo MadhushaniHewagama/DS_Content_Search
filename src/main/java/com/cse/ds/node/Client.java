@@ -1,6 +1,4 @@
-package com.cse.distributed.node;
-
-import com.cse.distributed.models.Command;
+package com.cse.ds.node;
 
 import java.io.IOException;
 import java.net.DatagramPacket;
@@ -8,6 +6,8 @@ import java.net.DatagramSocket;
 import java.net.InetAddress;
 import java.net.SocketException;
 import java.security.NoSuchAlgorithmException;
+
+import com.cse.ds.models.Command;
 
 
 @SuppressWarnings("Since15")
