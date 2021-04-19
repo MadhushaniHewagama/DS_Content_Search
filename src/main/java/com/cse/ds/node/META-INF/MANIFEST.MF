@@ -1,3 +1,3 @@
 Manifest-Version: 1.0
-Main-Class: com.cse.distributed.node.Node
+Main-Class: com.cse.ds.node.Node
 

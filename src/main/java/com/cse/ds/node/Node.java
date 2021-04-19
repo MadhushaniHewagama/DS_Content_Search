@@ -54,7 +54,6 @@ public class Node extends Client {
     public void join(Node_info info) {
 
         neighbours.add(info);
-//        System.out.println(Arrays.toString(neighbours.toArray()));
         String newJoin1 = "0111 JOIN " + ip + " " + port;
         send(newJoin1, info.getIp(), info.getPort());
 
@@ -70,6 +69,7 @@ public class Node extends Client {
         }
     }
 
+    // diconnecting node
     public void disconnect() {
 
         if (neighbours.size() == 2) {
